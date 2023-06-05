@@ -9,7 +9,7 @@ pipeline {
     tools {
         //Que herramientas queremos utilizar 
         maven "jenkinsmaven"
-        jdk "jenkinsjava"
+        jdk "JDK 17"
         
     }
 
