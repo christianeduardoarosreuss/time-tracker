@@ -32,7 +32,7 @@ pipeline {
         
         stage('Git Polling'){
             steps{
-                git branch: 'master', url: 'https://github.com/MiguelAngelRamos/time-tracker.git'
+                git branch: 'master', url: 'https://github.com/christianeduardoarosreuss/time-tracker.git'
                 
             }
         }
